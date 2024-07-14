@@ -79,3 +79,10 @@ body {
 .button:hover img {
     transform: scale(2.0);
 }
+
+/* styling for score/result*/
+#scoreContainer{
+    display: flex;
+    
+
+}
