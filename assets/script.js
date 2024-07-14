@@ -48,10 +48,10 @@ function computersTurn() {
     }
 }
 
-/* winner function */
+/* Winner function */
 
-function Winner() {
-    if (player == computer) {
+function checkWinner() {
+    if (player === computer) {
         return "Draw!";
     }
     else if (computer === "ROCK") {
@@ -71,16 +71,16 @@ function Winner() {
     }
 }
 
-/* score function */
+/* Score function */
 
-function Scores() {
+function updateScores() {
     if (resultObj.textContent === "You win!"){
         playerScore++;
     } else if (resultObj.textContent === "You lose!"){
-            computerScoreObj++;
+            computerScore++;
         }
         playerScoreObj.textContent = `Score: ${playerScore}`;
-        computerScoreObj.textContent = `Score:$ {computerScore}`;
+        computerScoreObj.textContent = `Score: ${computerScore}`;
     }
 
 
