@@ -1,9 +1,13 @@
+
+/* Gen styling */
+
 body{
     background-color: rgb(56 83 164);
     padding: 10px;
     text-align: center;
     
 }
+/* styling for players div*/
 
 #gameDiv{
     display: flex;
@@ -11,6 +15,8 @@ body{
     justify-content: center;
     font-family: American Typewriter, serif;
 }
+
+/* styling for player*/
 
 #player{
     display:flex;
@@ -25,6 +31,8 @@ body{
     width: auto;
 }
 
+/* styling for computer*/
+
 #computer{
     display: flex;
     padding: 3%;
@@ -37,6 +45,8 @@ body{
     height: 40px;
     width: auto;
 }
+
+/* styling for button*/
 
 .buttonContainer{
     display: flex;
