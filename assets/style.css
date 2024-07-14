@@ -30,6 +30,11 @@ body {
     width: auto;
 }
 
+#playerText{
+    color:white;
+}
+
+
 /* styling for computer*/
 
 #computer {
@@ -43,6 +48,11 @@ body {
     display: flex;
     height: 40px;
     width: auto;
+}
+
+#computerText{
+    color:white;
+    
 }
 
 /* styling for button*/

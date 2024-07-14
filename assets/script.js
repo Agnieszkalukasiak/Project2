@@ -1,11 +1,11 @@
 /* Declaring variables, linking to DOM elements*/
 
-const playerObj = document.getElementById("player");
-const computerObj = document.getElementById("computer");
-const resultObj = document.getElementById("result");
-const buttonObj = document.document.querySelectorAll(".button");
-const computerScoreObj = document.getElementById("scoreC");
-const playerScoreObj = document.getElementById("scoreP");
+const playerText = document.querySelector("#player");
+const computerText = document.querySelector("#computer");
+const resultText = document.querySelector("#result");
+const buttonPic = document.document.querySelector(".button");
+const computerScoreText = document.querySelector("#scoreC");
+const playerScoreText = document.querySelector("#scoreP");
 let player;
 let computer;
 let result;
@@ -15,12 +15,12 @@ let computerScore = 0;
 
 /* Getting buttons to work */
 
-buttonObj.forEach( button=> button.addEventListener("click",() => {
+buttonPic. forEach (button => button.addEventListener("click",() => {
     player = button.textContent;
-        computersTurn();
-        playerObj.textContent = `Player: ${player}`;
-        computerObj.textContent = `Computer: ${computer}`;
-        resultObj.textContent = checkWinner();
+        computerTurn();
+        playerText.textContent = `Player: ${player}`;
+        computerText.textContent = `Computer: ${computer}`;
+        resultText.textContent = checkWinner();
         updateScores();
     }));
 
@@ -51,35 +51,28 @@ function computerTurn() {
 
 function checkWinner() {
     if (player === computer) {
-        return "Draw!";
-    }
+        return "Draw!";}
     else if (computer === "ROCK") {
-        return (player === "PAPER" || player === "SPOCK") ? "You win!" : "You lose!";
-    }
+        return (player === "PAPER" || player === "SPOCK") ? "You win!" : "You lose!";}
     else if (computer === "PAPER") {
-        return (player === "SCISSORS" || player === "LIZARD") ? "You win!" : "You lose!";
-    }
+        return (player === "SCISSORS" || player === "LIZARD") ? "You win!" : "You lose!";}
     else if (computer === "SCISSORS") {
-        return (player === "ROCK" || player === "SPOCK") ? "You win!" : "You lose!";
-    }
+        return (player === "ROCK" || player === "SPOCK") ? "You win!" : "You lose!";}
     else if (computer === "SPOCK") {
-        return (player === "LIZARD" || player === "PAPER") ? "You win!" : "You lose!";
-    }
+        return (player === "LIZARD" || player === "PAPER") ? "You win!" : "You lose!";}
     else if (computer === "LIZARD") {
-        return (player === "SCISSORS" || player === "ROCK") ? "You win!" : "You lose!";
-    }
-}
+        return (player === "SCISSORS" || player === "ROCK") ? "You win!" : "You lose!";}
 
 /* Score function */
 
 function updatesScores() {
-    if (resultObj.textContent === "You win!"){
+    if (resultText.textContent === "You win!"){
         playerScore++;
-    } else if (resultObj.textContent === "You lose!"){
+    } else if (resultText.textContent === "You lose!"){
             computerScore++;
         }
-        playerScoreObj.textContent = `Score: ${playerScore}`;
-        computerScoreObj.textContent = `Score: ${computerScore}`;
+        playerScoreText.textContent = `Score: ${playerScore}`;
+        computerScoreText.textContent = `Score: ${computerScore}`;
     }
 
 
