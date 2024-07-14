@@ -73,3 +73,16 @@ function Winner() {
 }
 
 /* score function */
+
+function updateScores() {
+    if (resultObj.textContent === "You win!"){
+        playerScore++;
+    } else if (resultObj.textContent === "You lose!"){
+            computerScoreObj++;
+        }
+        playerScoreObj.textContent = `Score: ${playerScore}`;
+        computerScoreObj.textContent = `Score:$ {computerScore}`;
+    }
+
+
+ 
