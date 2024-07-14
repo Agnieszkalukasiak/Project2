@@ -1,5 +1,7 @@
 body{
-    background-color: aqua;
+    background-color: rgb(56 83 164);
+    padding: 10px;
+    text-align: center;
     
 }
 
@@ -12,15 +14,26 @@ body{
 
 #player{
     display:flex;
-    padding: 5%;
+    padding: 3%;
     color: red;
     background-color: white;
 }
 
+#player img{
+    display: flex;
+    height: 40px;
+    width: auto;
+}
+
 #computer{
     display: flex;
-    padding: 1.2em;
+    padding: 3%;
     color:red;
     background-color: white;
+}
 
+#computer img{
+    display: flex;
+    height: 40px;
+    width: auto;
 }
