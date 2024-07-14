@@ -1,9 +1,9 @@
-/* declaring variables, linking to dom elements*/
+/* Declaring variables, linking to DOM elements*/
 
 const playerObj = document.qetElementById("player");
 const computerObj = document.qetElementById("computer");
 const resultObj = document.qetElementById("result");
-const buttonObj = document.qetElementById("button");
+const buttonObj = document.document.querySelectorAll(".button");
 const computerScoreObj = document.qetElementById("scoreC");
 const playerScoreObj = document.qetElementById("scoreP");
 let player;
@@ -13,20 +13,19 @@ let result;
 let playerScore = 0;
 let computerScore = 0;
 
-/* getting buttons to work */
+/* Getting buttons to work */
 
-buttonObj.forEach(function buttonClick(button) {
-    button.addEventListener("click", buttonClick())
-    {
-        player = button.textContent;
+buttonObj.forEach(function (button) {
+    button.addEventListener("click", function(){
+    player = button.textContent;DataTransferItem();
         computersTurn();
-        playerObj.textContent = 'Player:${player}';
-        computerObj.textContent = 'Computer:${computer}';
+        playerObj.textContent = `Player:${player}`;
+        computerObj.textContent = `Computer: ${computer}`;
         resultObj.textContent = checkWinner();
-    }
+        updateScores();});
 });
 
-/* computers function */
+/* Computer's function */
 
 function computersTurn() {
     const randNum = Math.floor(Math.random() * 5) + 1;
@@ -74,7 +73,7 @@ function Winner() {
 
 /* score function */
 
-function updateScores() {
+function Scores() {
     if (resultObj.textContent === "You win!"){
         playerScore++;
     } else if (resultObj.textContent === "You lose!"){
