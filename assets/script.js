@@ -62,14 +62,16 @@ function checkWinner() {
         return (player === "LIZARD" || player === "PAPER") ? "You win!" : "You lose!";}
     else if (computer === "LIZARD") {
         return (player === "SCISSORS" || player === "ROCK") ? "You win!" : "You lose!";}
+    }
 
 /* Score function */
 
 function updateScores() {
     if (resultText.textContent === "You win!"){
-        playerScore++;
-    } else if (resultText.textContent === "You lose!"){
+        playerScore++; }
+    else if (resultText.textContent === "You lose!"){
             computerScore++;
         }
         playerScoreText.textContent = `Score: ${playerScore}`;
         computerScoreText.textContent = `Score: ${computerScore}`;
+    }

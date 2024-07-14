@@ -64,12 +64,13 @@ body {
     padding: 20px;
     height: 100px;
     width: 100%;
+    margin-top: 15%;
 }
 
 .choiceBtn {
     display: flex;
     flex-wrap: wrap;
-    padding: 0%;
+    padding: 0;
     height: auto;
     width: 100px;
     cursor: pointer;
@@ -85,7 +86,7 @@ body {
     width: auto;
 }
 
-.buttonBtn:hover img {
+.choiceBtn:hover img {
     transform: scale(2.0);
 }
 
@@ -100,6 +101,8 @@ body {
 
 #playerScore{
     color:red;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #scoreP{
@@ -109,6 +112,8 @@ body {
 
 #computerScore{
     color:red;
+    font-weight: bold;
+    font-size: 20px;
 }
 #scoreC{
     color:white;
