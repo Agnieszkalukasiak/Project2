@@ -75,3 +75,7 @@ body {
     height: 90px;
     width: auto;
 }
+
+.button:hover img {
+    transform: scale(2.0);
+}
