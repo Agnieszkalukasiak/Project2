@@ -75,3 +75,12 @@ function updateScores() {
         playerScoreText.textContent = `Score: ${playerScore}`;
         computerScoreText.textContent = `Score: ${computerScore}`;
     }
+
+function resetGame() {
+    location.reload();
+}
+
+const rese = document.querySelector("#resetBtn");
+
+resetBtn.addEventListener('click', resetGame);
+    
