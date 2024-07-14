@@ -2,7 +2,7 @@
 
 body {
     background-color: rgb(56 83 164);
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -22,6 +22,8 @@ body {
     padding: 3%;
     color: red;
     background-color: white;
+    font-size: 28px;
+    
 }
 
 #player img {
@@ -32,6 +34,7 @@ body {
 
 #playerText{
     color:white;
+    
 }
 
 
@@ -42,6 +45,7 @@ body {
     padding: 3%;
     color: red;
     background-color: white;
+    font-size: 28px;
 }
 
 #computer img {
@@ -52,6 +56,7 @@ body {
 
 #computerText{
     color:white;
+  
 }
 
 /* styling for button*/
@@ -67,7 +72,7 @@ body {
     margin-top: 15%;
 }
 
-.choiceBtn {
+.Btn {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -77,16 +82,17 @@ body {
     background-color: white;
     color: red;
     font-weight: bold;
+    margin-top: 10px;
 }
 
-.choiceBtn img{
+.Btn img{
     display: flex;
     flex-wrap: wrap;
     height: 90px;
     width: auto;
 }
 
-.choiceBtn:hover img {
+.Btn:hover img {
     transform: scale(2.0);
 }
 
@@ -118,4 +124,28 @@ body {
 #scoreC{
     color:white;
 
+}
+
+/* styling for Reset button*/
+
+#reset {
+    display: flex;
+    display: inline;
+    position: absolute;
+    margin-top: 90%;
+    justify-content: center;
+}
+
+#resetBtn {
+    display: flex;
+    background-color: red;
+    color:black;
+    padding:10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+  
+   
+    
+    
 }

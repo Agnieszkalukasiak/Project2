@@ -3,7 +3,7 @@
 const playerText = document.querySelector("#player");
 const computerText = document.querySelector("#computer");
 const resultText = document.querySelector("#result");
-const choiceBtns = document.querySelectorAll(".choiceBtn");
+const Btn = document.querySelectorAll(".Btn");
 const computerScoreText = document.querySelector("#computerScore");
 const playerScoreText = document.querySelector("#playerScore");
 let player;
@@ -15,7 +15,7 @@ let computerScore = 0;
 
 /* Getting buttons to work */
 
-choiceBtns. forEach(button => button.addEventListener("click",() => {
+Btn. forEach(button => button.addEventListener("click",() => {
     player = button.textContent;
         computerTurn();
         playerText.textContent = `Player: ${player}`;
