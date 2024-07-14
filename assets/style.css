@@ -2,3 +2,17 @@ body{
     background-color: aqua;
     
 }
+
+#gameDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: American Typewriter, serif;
+}
+
+#player{
+    display:flex;
+    padding: 5%;
+    color: red;
+    background-color: white;
+}
