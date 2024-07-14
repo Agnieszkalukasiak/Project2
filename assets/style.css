@@ -99,16 +99,16 @@ body {
 }
 
 #playerScore{
-    color:pink;
+    color:red;
 }
 
 #scoreP{
-    color:red;
+    color:white;
 
 }
 
 #computerScore{
-    color:purple;
+    color:red;
 }
 #scoreC{
     color:white;
