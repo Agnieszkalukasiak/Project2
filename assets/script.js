@@ -31,19 +31,19 @@ function computersTurn() {
     const randNum = Math.floor(Math.random() * 5) + 1;
     switch (randNum) {
         case 1:
-            computer: 'ROCK';
+            computer = 'ROCK';
             break;
         case 2:
-            computer: 'PAPER';
+            computer = 'PAPER';
             break;
         case 3:
-            computer: 'SCISSORS';
+            computer = 'SCISSORS';
             break;
         case 4:
-            computer: 'LIZARD';
+            computer = 'LIZARD';
             break;
         case 1:
-            computer: 'SPOCK';
+            computer = 'SPOCK';
             break;
     }
 }
