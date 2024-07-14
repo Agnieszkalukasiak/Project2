@@ -1,15 +1,14 @@
-
 /* Gen styling */
 
-body{
+body {
     background-color: rgb(56 83 164);
     padding: 10px;
     text-align: center;
-    
 }
+
 /* styling for players div*/
 
-#gameDiv{
+#gameDiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -18,14 +17,14 @@ body{
 
 /* styling for player*/
 
-#player{
-    display:flex;
+#player {
+    display: flex;
     padding: 3%;
     color: red;
     background-color: white;
 }
 
-#player img{
+#player img {
     display: flex;
     height: 40px;
     width: auto;
@@ -33,14 +32,14 @@ body{
 
 /* styling for computer*/
 
-#computer{
+#computer {
     display: flex;
     padding: 3%;
-    color:red;
+    color: red;
     background-color: white;
 }
 
-#computer img{
+#computer img {
     display: flex;
     height: 40px;
     width: auto;
@@ -48,7 +47,7 @@ body{
 
 /* styling for button*/
 
-.buttonContainer{
+.buttonContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -56,6 +55,23 @@ body{
     padding: 20px;
     height: 100px;
     width: 100%;
-    
+}
 
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0%;
+    height: auto;
+    width: 100px;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+.button img{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
+    width: auto;
 }
