@@ -16,3 +16,11 @@ body{
     color: red;
     background-color: white;
 }
+
+#computer{
+    display: flex;
+    padding: 1.2em;
+    color:red;
+    background-color: white;
+
+}
