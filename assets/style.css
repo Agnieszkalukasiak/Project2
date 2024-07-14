@@ -81,8 +81,10 @@ body {
 }
 
 /* styling for score/result*/
-#scoreContainer{
-    display: flex;
-    
+#result{
+    color: red;
+}
 
+.score{
+    color: white;
 }
