@@ -37,3 +37,15 @@ body{
     height: 40px;
     width: auto;
 }
+
+.buttonContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    
+
+}
