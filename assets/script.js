@@ -1,11 +1,11 @@
 /* Declaring variables, linking to DOM elements*/
 
-const playerObj = document.qetElementById("player");
-const computerObj = document.qetElementById("computer");
-const resultObj = document.qetElementById("result");
+const playerObj = document.getElementById("player");
+const computerObj = document.getElementById("computer");
+const resultObj = document.getElementById("result");
 const buttonObj = document.document.querySelectorAll(".button");
-const computerScoreObj = document.qetElementById("scoreC");
-const playerScoreObj = document.qetElementById("scoreP");
+const computerScoreObj = document.getElementById("scoreC");
+const playerScoreObj = document.getElementById("scoreP");
 let player;
 let computer;
 let result;
@@ -15,19 +15,18 @@ let computerScore = 0;
 
 /* Getting buttons to work */
 
-buttonObj.forEach(function (button) {
-    button.addEventListener("click", function(){
-    player = button.textContent;DataTransferItem();
+buttonObj.forEach( button=> button.addEventListener("click",() => {
+    player = button.textContent;
         computersTurn();
-        playerObj.textContent = `Player:${player}`;
+        playerObj.textContent = `Player: ${player}`;
         computerObj.textContent = `Computer: ${computer}`;
         resultObj.textContent = checkWinner();
-        updateScores();});
-});
+        updateScores();
+    }));
 
 /* Computer's function */
 
-function computersTurn() {
+function computerTurn() {
     const randNum = Math.floor(Math.random() * 5) + 1;
     switch (randNum) {
         case 1:
@@ -42,7 +41,7 @@ function computersTurn() {
         case 4:
             computer = 'LIZARD';
             break;
-        case 1:
+        case 5:
             computer = 'SPOCK';
             break;
     }
@@ -73,7 +72,7 @@ function checkWinner() {
 
 /* Score function */
 
-function updateScores() {
+function updatesScores() {
     if (resultObj.textContent === "You win!"){
         playerScore++;
     } else if (resultObj.textContent === "You lose!"){
