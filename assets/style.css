@@ -52,7 +52,6 @@ body {
 
 #computerText{
     color:white;
-    
 }
 
 /* styling for button*/
@@ -67,7 +66,7 @@ body {
     width: 100%;
 }
 
-.button {
+.choiceBtn {
     display: flex;
     flex-wrap: wrap;
     padding: 0%;
@@ -79,22 +78,39 @@ body {
     font-weight: bold;
 }
 
-.button img{
+.choiceBtn img{
     display: flex;
     flex-wrap: wrap;
     height: 90px;
     width: auto;
 }
 
-.button:hover img {
+.buttonBtn:hover img {
     transform: scale(2.0);
 }
 
 /* styling for score/result*/
-#result{
+#result {
     color: red;
 }
 
-.score{
+#score{
     color: white;
+}
+
+#playerScore{
+    color:pink;
+}
+
+#scoreP{
+    color:red;
+
+}
+
+#computerScore{
+    color:purple;
+}
+#scoreC{
+    color:white;
+
 }
