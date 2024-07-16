@@ -67,12 +67,10 @@ body {
     justify-content: center;
     gap: 40px;
     padding: 20px;
-    height: 100px;
-    width: 100%;
     margin-top: 15%;
 }
 
-.Btn {
+.btn {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -85,14 +83,14 @@ body {
     margin-top: 10px;
 }
 
-.Btn img{
+.btn img{
     display: flex;
     flex-wrap: wrap;
     height: 90px;
     width: auto;
 }
 
-.Btn:hover img {
+.btn:hover img {
     transform: scale(2.0);
 }
 
@@ -136,10 +134,11 @@ body {
     margin-block-start: 1.5em;
     align-self: flex-start; 
     padding:10px 20px;
+    display:relative;
 }
 
 
-#resetBtn {
+#resetbtn {
     padding:10px 20px;
     background-color: red;
     color:black;

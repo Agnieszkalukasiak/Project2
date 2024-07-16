@@ -1,11 +1,13 @@
 /* Declaring variables, linking to DOM elements*/
 
-const playerText = document.querySelector("#player");
-const computerText = document.querySelector("#computer");
-const resultText = document.querySelector("#result");
-const Btn = document.querySelectorAll(".Btn");
-const computerScoreText = document.querySelector("#computerScore");
-const playerScoreText = document.querySelector("#playerScore");
+const playerText = document.getElementById("player");
+const computerText = document.getElementById("computer");
+const resultText = document.getElementById("result");
+const btn = document.querySelectorAll(".btn");
+const computerScoreText = document.getElementById("computerScore");
+const playerScoreText = document.getElementById("playerScore");
+const reset = document.querySelector("#resetBtn");
+
 let player;
 let computer;
 let result;
@@ -15,14 +17,14 @@ let computerScore = 0;
 
 /* Getting buttons to work */
 
-Btn. forEach(button => button.addEventListener("click",() => {
+btn.forEach(button => button.addEventListener("click", () => {
     player = button.textContent;
-        computerTurn();
-        playerText.textContent = `Player: ${player}`;
-        computerText.textContent = `Computer: ${computer}`;
-        resultText.textContent = checkWinner();
-        updateScores();
-    }));
+    computerTurn();
+    playerText.textContent = `Player: ${player}`;
+    computerText.textContent = `Computer: ${computer}`;
+    resultText.textContent = checkWinner();
+    updateScores();
+}));
 
 /* Computer's function */
 
@@ -51,36 +53,41 @@ function computerTurn() {
 
 function checkWinner() {
     if (player === computer) {
-        return "Draw!";}
-    else if (computer === "ROCK") {
-        return (player === "PAPER" || player === "SPOCK") ? "You win!" : "You lose!";}
-    else if (computer === "PAPER") {
-        return (player === "SCISSORS" || player === "LIZARD") ? "You win!" : "You lose!";}
-    else if (computer === "SCISSORS") {
-        return (player === "ROCK" || player === "SPOCK") ? "You win!" : "You lose!";}
-    else if (computer === "SPOCK") {
-        return (player === "LIZARD" || player === "PAPER") ? "You win!" : "You lose!";}
-    else if (computer === "LIZARD") {
-        return (player === "SCISSORS" || player === "ROCK") ? "You win!" : "You lose!";}
+        return "Draw!";
     }
+    else if (computer === "ROCK") {
+        return (player === "PAPER" || player === "SPOCK") ? "You win!" : "You lose!";
+    }
+    else if (computer === "PAPER") {
+        return (player === "SCISSORS" || player === "LIZARD") ? "You win!" : "You lose!";
+    }
+    else if (computer === "SCISSORS") {
+        return (player === "ROCK" || player === "SPOCK") ? "You win!" : "You lose!";
+    }
+    else if (computer === "SPOCK") {
+        return (player === "LIZARD" || player === "PAPER") ? "You win!" : "You lose!";
+    }
+    else if (computer === "LIZARD") {
+        return (player === "SCISSORS" || player === "ROCK") ? "You win!" : "You lose!";
+    }
+}
 
 /* Score function */
 
 function updateScores() {
-    if (resultText.textContent === "You win!"){
-        playerScore++; }
-    else if (resultText.textContent === "You lose!"){
-            computerScore++;
-        }
-        playerScoreText.textContent = `Score: ${playerScore}`;
-        computerScoreText.textContent = `Score: ${computerScore}`;
+    if (resultText.textContent === "You win!") {
+        playerScore++;
     }
+    else if (resultText.textContent === "You lose!") {
+        computerScore++;
+    }
+    playerScoreText.textContent = `Score: ${playerScore}`;
+    computerScoreText.textContent = `Score: ${computerScore}`;
+}
 
 function resetGame() {
     location.reload();
 }
 
-const rese = document.querySelector("#resetBtn");
+resetbtn= document.addEventListener('click', resetGame);
 
-resetBtn.addEventListener('click', resetGame);
-    
