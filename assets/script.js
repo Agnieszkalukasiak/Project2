@@ -10,7 +10,6 @@ const resetbtn = document.getElementById("resetbtn");
 
 let player;
 let computer;
-let result;
 
 let playerScore = 0;
 let computerScore = 0;
