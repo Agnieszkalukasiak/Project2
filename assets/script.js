@@ -6,7 +6,7 @@ const resultText = document.getElementById("result");
 const btn = document.querySelectorAll(".btn");
 const computerScoreText = document.getElementById("computerScore");
 const playerScoreText = document.getElementById("playerScore");
-const reset = document.querySelector("#resetBtn");
+const resetbtn = document.getElementById("resetbtn");
 
 let player;
 let computer;
@@ -89,5 +89,5 @@ function resetGame() {
     location.reload();
 }
 
-resetbtn= document.addEventListener('click', resetGame);
+resetbtn.addEventListener('click', resetGame);
 
