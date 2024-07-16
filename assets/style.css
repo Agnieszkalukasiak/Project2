@@ -130,10 +130,12 @@ body {
 
 #reset {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5px;
-    margin-left: 15%;
-    position: relative;
+    margin-top: 1.5em;
+    margin-block-start: 1.5em;
+    align-self: flex-start; 
+    padding:10px 20px;
 }
 
 
