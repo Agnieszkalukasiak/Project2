@@ -97,16 +97,18 @@ body {
 /* styling for score/result*/
 #result {
     color: red;
+    font-size: 3em;
 }
 
 #score {
     color: white;
+    font-size: 1.5em;
 }
 
 #playerScore {
     color: red;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 #scoreP {
@@ -117,7 +119,7 @@ body {
 #computerScore {
     color: red;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 #scoreC {
