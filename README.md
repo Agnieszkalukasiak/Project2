@@ -65,7 +65,7 @@ Asked ChatGPT for help with checking why some of the code wasn’t working.
 
 - The text was written by me. 
 
-### CONTENT ###
+### MEDIA ###
 
 -	Favicons taken from: https://icons8.com/icons/set/favicon-game
 -	Icons for rock, paper, scissors, lizard, spock: https://www.pngegg.com/
