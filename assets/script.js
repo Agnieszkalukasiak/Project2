@@ -1,4 +1,5 @@
-/* Declaring variables, linking to DOM elements*/
+/** 
+ * Declaring variables, linking to DOM elements*/
 
 const playerText = document.getElementById("player");
 const computerText = document.getElementById("computer");
@@ -14,7 +15,8 @@ let computer;
 let playerScore = 0;
 let computerScore = 0;
 
-/* Getting buttons to work */
+/** 
+ * Getting buttons to work */
 
 btn.forEach(button => button.addEventListener("click", () => {
     player = button.textContent;
@@ -25,7 +27,8 @@ btn.forEach(button => button.addEventListener("click", () => {
     updateScores();
 }));
 
-/* Computer's function */
+/**  
+ * Computer's function */
 
 function computerTurn() {
     const randNum = Math.floor(Math.random() * 5) + 1;
@@ -48,7 +51,8 @@ function computerTurn() {
     }
 }
 
-/* Winner function */
+/**  
+ * Winner function */
 
 function checkWinner() {
     if (player === computer) {
@@ -71,7 +75,8 @@ function checkWinner() {
     }
 }
 
-/* Score function */
+/**  
+ * Score function */
 
 function updateScores() {
     if (resultText.textContent === "You win!") {
