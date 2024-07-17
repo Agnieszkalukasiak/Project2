@@ -23,7 +23,7 @@ body {
     color: red;
     background-color: white;
     font-size: 28px;
-    
+
 }
 
 #player img {
@@ -32,9 +32,9 @@ body {
     width: auto;
 }
 
-#playerText{
-    color:white;
-    
+#playerText {
+    color: white;
+
 }
 
 
@@ -54,9 +54,9 @@ body {
     width: auto;
 }
 
-#computerText{
-    color:white;
-  
+#computerText {
+    color: white;
+
 }
 
 /* styling for button*/
@@ -83,7 +83,7 @@ body {
     margin-top: 10px;
 }
 
-.btn img{
+.btn img {
     display: flex;
     flex-wrap: wrap;
     height: 90px;
@@ -99,28 +99,29 @@ body {
     color: red;
 }
 
-#score{
+#score {
     color: white;
 }
 
-#playerScore{
-    color:red;
+#playerScore {
+    color: red;
     font-weight: bold;
     font-size: 20px;
 }
 
-#scoreP{
-    color:white;
+#scoreP {
+    color: white;
 
 }
 
-#computerScore{
-    color:red;
+#computerScore {
+    color: red;
     font-weight: bold;
     font-size: 20px;
 }
-#scoreC{
-    color:white;
+
+#scoreC {
+    color: white;
 
 }
 
@@ -132,21 +133,20 @@ body {
     justify-content: center;
     margin-top: 1.5em;
     margin-block-start: 1.5em;
-    align-self: flex-start; 
-    padding:10px 20px;
-    display:relative;
+    align-self: flex-start;
+    padding: 10px 20px;
 }
 
 
 #resetbtn {
-    padding:10px 20px;
+    padding: 10px 20px;
     background-color: red;
-    color:black;
+    color: black;
     border-radius: 3px;
     cursor: pointer;
     text-align: center;
-  
-   
-    
-    
+
+
+
+
 }
