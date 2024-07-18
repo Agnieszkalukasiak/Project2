@@ -1,4 +1,7 @@
-/** 
+
+document.addEventListener ('DOMContentLoaded', function(){
+
+    /** 
  * Declaring variables, linking to DOM elements*/
 
 const playerText = document.getElementById("player");
@@ -94,4 +97,4 @@ function resetGame() {
 }
 
 resetbtn.addEventListener('click', resetGame);
-
+});
