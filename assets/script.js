@@ -17,6 +17,7 @@ let computer;
 
 let playerScore = 0;
 let computerScore = 0;
+let triesRemaining =5;
 
 /** 
  * Getting buttons to work */
@@ -28,6 +29,7 @@ btn.forEach(button => button.addEventListener("click", () => {
     computerText.textContent = `Computer: ${computer}`;
     resultText.textContent = checkWinner();
     updateScores();
+    updateTries();
 }));
 
 /**  
@@ -55,7 +57,8 @@ function computerTurn() {
 }
 
 /**  
- * Winner function */
+ * Winner function 
+ * */
 
 function checkWinner() {
     if (player === computer) {
@@ -79,7 +82,8 @@ function checkWinner() {
 }
 
 /**  
- * Score function */
+ * Score function 
+ */
 
 function updateScores() {
     if (resultText.textContent === "You win!") {
@@ -90,6 +94,24 @@ function updateScores() {
     }
     playerScoreText.textContent = `Score: ${playerScore}`;
     computerScoreText.textContent = `Score: ${computerScore}`;
+}
+
+/**
+ * Tries funtion
+ */
+function updateTries(){
+    triesRemaining --;
+    triesText.textContent = `Tries remaining: ${triesRemaining}`;
+    if (triesRemaining === 0) {endGame()}
+}
+
+/**
+ * end game function
+ */
+
+function endGame(){
+    btn.forEach(button => button.disabled = true);
+    resultText.textContent = "Game Over!";
 }
 
 function resetGame() {
