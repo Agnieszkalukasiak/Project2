@@ -1,12 +1,14 @@
 # ROCK, PAPER, SICOSSRS, LIZARD, SPOCK #
 
-Spoks Lizard, is an exciting and dynamic browser-based game where the user compete against the computer in a fun and strategic showdown. The user can test their skills, and ability to make quick decisions, aiming for the highest score. With engaging gameplay and simple controls, Spoks Lizard is perfect for both casual players and seasoned gamers, or just for a moment of entertainment, while sitting in a waiting room or standing in line.
+Spoks Lizard, is an exciting and dynamic browser-based game where the user compete against the computer in a fun and strategic showdown. 
+
+The user can test their skills, and ability to make quick decisions, aiming for the highest score. With engaging gameplay and simple controls, Spoks Lizard is perfect for both casual players and seasoned gamers, or just for a moment of entertainment, while sitting in a waiting room or standing in line...
 
 ## GAME ##
 
 - Utilizing a clean and simple design, the game is easy to play and understand.
 
-- The intuitive layout and the  interactive button that altering their size when clicked, ensure players can easily navigate the game, track their scores, and reset the game with ease.
+- The intuitive layout and the  interactive button that altering their size when clicked, ensure players can easily navigate the game, track their scores, and reset the game .
 
 ![alt=Spock_Game](assets/images/spock_game.png)
 
@@ -25,9 +27,9 @@ As the feature activates:
 
 ### Result bar ###
 
--	This feature indicates whether the player or the computer has won a challenge. It also alerts the user when the game is over. 
+-	This feature displays information on who has won the challenge. It also alerts the user when the game is over. 
 	
--	It makes it easy for the user to see the outcome and understand when the game has concluded.
+-	The layout makes it easy for the user to see the outcome and understand when the game has concluded.
 
 ![alt=Spock_Game](assets/images/result.png)
 
@@ -52,7 +54,7 @@ As the feature activates:
 ### Icons ###
 -	The Rock, Paper, Scissors, Lizard, Spock icons not only visually represent the user's choices but are also labeled for new users to understand their selection. 
 
--	The buttons enlarge when clicked, highlighting the user's choice, making it easier to see the selected icon. 
+-	The buttons enlarge when clicked, highlighting the user's choice, and making it easier to see the selected icon. 
 
 -	This intuitive functionality and design evokes a sense of real-life interaction.
 

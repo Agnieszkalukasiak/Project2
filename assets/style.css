@@ -135,6 +135,10 @@ body {
     color: white;
 }
 
+#winner{
+    color:#ff0000
+}
+
 /* styling for Reset button*/
 
 #reset {

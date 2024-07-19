@@ -12,9 +12,11 @@ const computerScoreText = document.getElementById("computerScore");
 const playerScoreText = document.getElementById("playerScore");
 const resetbtn = document.getElementById("resetbtn");
 const triesRemainingText = document.getElementById("triesRemaining");
+const winner = document.getElementById("winner")
 
 let player;
 let computer;
+
 
 let playerScore = 0;
 let computerScore = 0;
@@ -113,8 +115,15 @@ function updateTries(){
 
 function endGame(){
     btn.forEach(button => button.disabled = true);
-    resultText.textContent = "Game Over!";
+    resultText.textContent = "Game Over";
 }
+
+function callingWinner (){
+    if (playerScore < computerScore) {winner.textContent = "Computer Wins!";}
+    else if(playerScore>computerScore) {winner.textContent = "Player Wins!";}
+     else {winner.textContent = "Draw!";}
+}
+
 
 function resetGame() {
     location.reload();
