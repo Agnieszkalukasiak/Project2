@@ -94,8 +94,8 @@ function updateScores() {
     else if (resultText.textContent === "You lose!") {
         computerScore++;
     }
-    playerScoreText.textContent = `Score: ${playerScore}`;
-    computerScoreText.textContent = `Score: ${computerScore}`;
+    playerScoreText.textContent = ` ${playerScore}`;
+    computerScoreText.textContent = ` ${computerScore}`;
 }
 
 /**
