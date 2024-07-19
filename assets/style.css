@@ -91,7 +91,7 @@ body {
 
 .btn:hover {
     transform: scale(1.5);
-    
+
 }
 
 /* styling for score/result/times*/
@@ -135,8 +135,11 @@ body {
     color: white;
 }
 
-#winner{
-    color:#ff0000
+#winner {
+    color: #020202;
+    font-size: 3em;
+    font-style: oblique;
+    border: #ff0000;
 }
 
 /* styling for Reset button*/
@@ -154,7 +157,7 @@ body {
 
 #resetbtn {
     padding: 10px 20px;
-    background-color:#ff0000;
+    background-color: #ff0000;
     color: black;
     border-radius: 3px;
     cursor: pointer;
