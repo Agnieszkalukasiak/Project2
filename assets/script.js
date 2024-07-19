@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateTries() {
         triesRemaining--;
         triesRemaining.textContent = `Tries remaining: ${triesRemaining}`;
-        if (triesRemaining < 0) { endGame() }
+        if (triesRemaining === 0) { endGame() }
     }
 
     /**
