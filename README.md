@@ -5,9 +5,65 @@ Spoks Lizard, is an exciting and dynamic browser-based game where the user compe
 ## GAME ##
 
 - Utilizing a clean and simple design, the game is easy to play and understand.
+
 - The intuitive layout and the  interactive button that altering their size when clicked, ensure players can easily navigate the game, track their scores, and reset the game with ease.
 
 ![alt=Spock_Game](assets/images/spock_game.png)
+
+## Existing Features ##
+
+### Player & Computer Status Bar ###
+-	This feature displays the selected value for both the player and the computer.
+
+- It gives the user a clear visual representation of their and the computer's choices.
+
+![alt=Spock_Game](assets/images/player_computer.png)
+
+As the feature activates:
+
+![alt=Spock_Game](assets/images/computer_player_inaction.png)
+
+### Result bar ###
+
+-	This feature indicates whether the player or the computer has won a challenge. It also alerts the user when the game is over. 
+	
+-	It makes it easy for the user to see the outcome and understand when the game has concluded.
+
+![alt=Spock_Game](assets/images/result.png)
+
+As the feature activates:
+
+![alt=Spock_Game](assets/images/result_inaction.png)
+
+### Score bar ###
+-	The game keeps track of the scores for both the player and the computer. 
+
+-	The two-color design and varied font sizes of the bar make it easy for the user to see their score at a glance.
+
+![alt=Spock_Game](assets/images/score.png)
+
+### Remaining Tries ###
+-	The game discreetly displays the remaining tries, ensuring the information is available without being intrusive. 
+
+-	This allows for a relaxing gaming experience.
+
+![alt=Spock_Game](assets/images/tries_remaining.png)
+
+### Icons ###
+-	The Rock, Paper, Scissors, Lizard, Spock icons not only visually represent the user's choices but are also labeled for new users to understand their selection. 
+
+-	The buttons enlarge when clicked, highlighting the user's choice, making it easier to see the selected icon. 
+
+-	This intuitive functionality and design evokes a sense of real-life interaction.
+
+![alt=Spock_Game](assets/images/game_icons.png)
+
+### Reset Button ###
+-	This feature allows the user to reset the game with a simple click. 
+
+-	The button makes it easy for the user to restart the game without having to reload the window or click the back button.
+
+![alt=Spock_Game](assets/images/reset_button.png)
 
 ## FEATURES LEFT TO IMPLEMENT
 
