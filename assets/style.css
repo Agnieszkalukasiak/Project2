@@ -94,7 +94,7 @@ body {
     transform: scale(2.0);
 }
 
-/* styling for score/result*/
+/* styling for score/result/times*/
 #result {
     color: red;
     font-size: 3em;
@@ -124,7 +124,15 @@ body {
 
 #scoreC {
     color: white;
+}
 
+#tries {
+    color: red;
+    font-weight: bold;
+}
+
+#triesRemaining {
+    color: white;
 }
 
 /* styling for Reset button*/

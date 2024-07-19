@@ -11,13 +11,14 @@ const btn = document.querySelectorAll(".btn");
 const computerScoreText = document.getElementById("computerScore");
 const playerScoreText = document.getElementById("playerScore");
 const resetbtn = document.getElementById("resetbtn");
+const triesRemainingText = document.getElementById("triesRemaining");
 
 let player;
 let computer;
 
 let playerScore = 0;
 let computerScore = 0;
-let triesRemaining =5;
+let triesRemaining = 5;
 
 /** 
  * Getting buttons to work */
@@ -27,6 +28,7 @@ btn.forEach(button => button.addEventListener("click", () => {
     computerTurn();
     playerText.textContent = `Player: ${player}`;
     computerText.textContent = `Computer: ${computer}`;
+    triesRemainingText.textContent = `${triesRemaining}`;
     resultText.textContent = checkWinner();
     updateScores();
     updateTries();
@@ -101,8 +103,8 @@ function updateScores() {
  */
 function updateTries(){
     triesRemaining --;
-    triesText.textContent = `Tries remaining: ${triesRemaining}`;
-    if (triesRemaining === 0) {endGame()}
+    triesRemaining.textContent = `Tries remaining: ${triesRemaining}`;
+    if (triesRemaining < 0) {endGame()}
 }
 
 /**
