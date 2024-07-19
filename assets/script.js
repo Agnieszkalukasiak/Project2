@@ -30,10 +30,11 @@ document.addEventListener('DOMContentLoaded', function () {
         computerTurn();
         playerText.textContent = `Player: ${player}`;
         computerText.textContent = `Computer: ${computer}`;
+        updateTries();
         triesRemainingText.textContent = `${triesRemaining}`;
         resultText.textContent = checkWinner();
         updateScores();
-        updateTries();
+        
     }));
 
     /**  
