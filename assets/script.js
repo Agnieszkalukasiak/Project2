@@ -30,10 +30,10 @@ document.addEventListener('DOMContentLoaded', function () {
         computerTurn();
         playerText.textContent = `Player: ${player}`;
         computerText.textContent = `Computer: ${computer}`;
-        updateTries();
         triesRemainingText.textContent = `${triesRemaining}`;
         resultText.textContent = checkWinner();
         updateScores();
+        updateTries();
     }));
 
     /**  
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateTries() {
         triesRemaining--;
         triesRemaining.textContent = `Tries remaining: ${triesRemaining}`;
-        if (triesRemaining == 0) { endGame() }
+        if (triesRemaining <0) { endGame() }
     }
 
     /**
