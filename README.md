@@ -7,7 +7,7 @@ Spoks Lizard, is an exciting and dynamic browser-based game where the user compe
 - Utilizing a clean and simple design, the game is easy to play and understand.
 - The intuitive layout and the  interactive button that altering their size when clicked, ensure players can easily navigate the game, track their scores, and reset the game with ease.
 
-![alt=Spock_Game](assets/images/Spock_Game.png)
+![alt=Spock_Game](assets/images/spock_game.png)
 
 ## FEATURES LEFT TO IMPLEMENT
 

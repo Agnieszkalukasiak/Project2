@@ -89,8 +89,9 @@ body {
     width: auto;
 }
 
-.btn:hover img {
-    transform: scale(2.0);
+.btn:hover {
+    transform: scale(1.5);
+    
 }
 
 /* styling for score/result/times*/
