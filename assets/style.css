@@ -95,7 +95,7 @@ body {
 
 /* styling for score/result/times*/
 #result {
-    color: red;
+    color: #ff0000;
     font-size: 3em;
 }
 
@@ -105,7 +105,7 @@ body {
 }
 
 #playerScore {
-    color: red;
+    color: #ff0000;
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -116,7 +116,7 @@ body {
 }
 
 #computerScore {
-    color: red;
+    color: #ff0000;
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -126,7 +126,7 @@ body {
 }
 
 #tries {
-    color: red;
+    color: #ff0000;
     font-weight: bold;
 }
 
@@ -149,7 +149,7 @@ body {
 
 #resetbtn {
     padding: 10px 20px;
-    background-color: red;
+    background-color:#ff0000;
     color: black;
     border-radius: 3px;
     cursor: pointer;
