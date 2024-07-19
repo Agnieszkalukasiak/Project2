@@ -60,6 +60,14 @@ As the feature activates:
 
 ![alt=Spock_Game](assets/images/game_icons.png)
 
+### Winner Bar ###
+-	This feature displays the winner of the game. 
+
+-	Hidden throughout the game, this bar appears at the end to summarize the game result, making it easy for the user to quickly see the outcome.
+
+![alt=Spock_Game](assets/images/winner.png)
+
+
 ### Reset Button ###
 -	This feature allows the user to reset the game with a simple click. 
 
@@ -76,7 +84,7 @@ The Rock, Paper, Scissors, Lizard, Spock game works on various devices and scree
 
 ## VALIDATOR TESTING ##
 
-####	HTML ####
+#### HTML ####
 
 - 	No errors were returned when passing through the official W3C validator
 
