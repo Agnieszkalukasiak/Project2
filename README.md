@@ -100,6 +100,13 @@ The Rock, Paper, Scissors, Lizard, Spock game works on various devices and scree
 - No errors were found when passing through the official ( Jshint).
 - Link  https://jshint.com/ 
 
+### Manual Testing ###
+
+- I have tested the desktop and mobile versions of the website with Chrome, Firefox, and Edge on a Windows Computer.
+- I have tested the mobile version with Chrome and Firefox on an android device.
+- I have tested the mobile version with Safari on an ios device.
+- I have shared the website with multiple users to confirm the website functionality on different devices and to get feedback on their experience.
+
 ### Unfixed Bugs ###
 
 There are no unfixed bugs.

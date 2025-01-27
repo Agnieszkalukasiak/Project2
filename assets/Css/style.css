@@ -1,0 +1,208 @@
+/* Gen styling */
+
+body {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* styling for players div*/
+
+#gameDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    gap: 10px;
+}
+
+/* styling for player*/
+
+#player {
+    display: flex;
+    padding: 3%;
+    color: red;
+    background-color: white;
+    font-size: 28px;
+    font-weight: 600;
+    align-items: center;
+}
+
+#player img {
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* styling for computer*/
+
+#computer {
+    display: flex;
+    padding: 3%;
+    color: red;
+    background-color: white;
+    font-size: 28px;
+    font-weight: 600;
+    align-items: center;
+}
+
+#computer img {
+    display: flex;
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* styling for button*/
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: calc(33.33% - 20px);
+    min-width: 80px;
+    max-width: 100px;
+    cursor: pointer;
+    background-color: white;
+    color: #222222;
+    font-weight: 700;
+    margin-top: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn img {
+    /**display: flex;
+    flex-wrap: wrap;**/
+    height: 80px;
+    width: auto;
+    margin-bottom: 5px;
+    
+}
+
+.btn:hover {
+    transform: scale(1.5);
+
+}
+
+/* Score container */
+.scoreContainer {
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* styling for score/result/times*/
+#result {
+    color: rgb(23, 23, 160);
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#score {
+    margin: 15px 0;
+    font-size: 1.7em;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+#playerScore {
+    color: black;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#scoreP {
+    color:black;
+    font-size: 1em;
+    margin: 15px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#computerScore {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 15px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#scoreC {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tries {
+    color: black ;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#triesRemaining {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#winner {
+    color: red;
+    font-size: 2.5em;
+    font-weight: 700;
+    font-style: oblique;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+}
+
+/* styling for Reset button*/
+
+#reset {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-block-start: 1em;
+    align-self: flex-start;
+    
+}
+
+#resetbtn {
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    border-color: #ff0000;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em; 
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+    #resetbtn {
+        padding: 15px 30px;
+        font-size: 1.3em;
+    }
+}

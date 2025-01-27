@@ -16,45 +16,50 @@
     <meta name="keywords" content="game, rock, paper, scissors, lizard, spock, fun, play, entertaiment">
    
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/Css/style.css">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <!--game-->
-
+    <main>
     <!--players-->
-    <div id="gameDiv">
+    <header id="gameDiv">
         <h1 id="player"><img src="assets/images/player.png" alt="player_icon">Player</h1>
-         <h1 id="computer"><img src="assets/images/computer.png" alt="computer_icon">Computer</h1>
-    </div>
+        <h1 id="computer"><img src="assets/images/computer.png" alt="computer_icon">Computer</h1>
+    </header>
+
     <!--scores-->
-    <div class="scoreContainer">
+    <section class="scoreContainer">
         <h1 id="result">Result:<span id="GameResult"></span></h1>
         <h2 id="winner"></h2>
 
-        <div id="score">
+        <article id="score">
             <h4 id="scoreP">Player: <span id="playerScore">0</span></h4>
             <h4 id="scoreC">Computer: <span id="computerScore">0</span></h4>
             <h5 id="tries">Tries Remaining: <span id="triesRemaining">5</span></h5>
 
-        </div>
-    </div>
+        </article>
+    </section>
+
     <!--game buttons-->
-    <div class="buttonContainer">
+    <section class="buttonContainer">
         <button class="btn"><img src="assets/images/rock1.png" alt="icon_of_rock">ROCK</button>
         <button class="btn"><img src="assets/images/paper.png" alt="icon_of_paper">PAPER</button>
         <button class="btn"><img src="assets/images/sizzors.png" alt="icon_of_scissors">SCISSORS</button>
         <button class="btn"><img src="assets/images/lizzard.png" alt="icon_of_lizard">LIZARD</button>
         <button class="btn"><img src="assets/images/spock.png" alt="icon_of_spock">SPOCK</button>
-        </div>
-           <!--reset button-->
-           <div id="reset">
-           <button id="resetbtn">Reset </button>
-    </div>
+    </section>
+           
+    <!--reset button-->
+    <footer id="reset">
+        <button id="resetbtn">Reset </button>
+    </footer>
+    </main>
 
-   
-    <script src="assets/script.js"></script>
+    <script src="assets/JavaScript/script.js"></script>
+
 </body>
-
 </html>
