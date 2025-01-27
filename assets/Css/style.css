@@ -170,6 +170,10 @@ body {
     font-style: oblique;
     font-family: 'Montserrat', sans-serif;
     margin: 20px 0;
+    visibility: hidden; 
+}
+#winner:not(:empty) {
+    visibility: visible;
 }
 
 /* styling for Reset button*/
