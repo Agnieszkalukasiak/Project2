@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const playerScoreText = document.getElementById("playerScore");
     const resetbtn = document.getElementById("resetbtn");
     const triesRemainingText = document.getElementById("triesRemaining");
-    const winner = document.getElementById("winner")
+    const winner = document.getElementById("winner");
 
     let player;
     let computer;
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateTries() {
         triesRemaining--;
         triesRemaining.textContent = `Tries remaining: ${triesRemaining}`;
-        if (triesRemaining <0) { endGame() }
+        if (triesRemaining <0) { endGame(); }
     }
 
     /**
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function endGame() {
         btn.forEach(button => button.disabled = true);
         resultText.textContent = "Game Over";
-        callingWinner()
+        callingWinner();
     }
 
     function callingWinner() {

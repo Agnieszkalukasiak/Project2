@@ -82,6 +82,13 @@ As the feature activates:
 ## TESTING ##
 The Rock, Paper, Scissors, Lizard, Spock game works on various devices and screen sizes.
 
+### Manual Testing ###
+
+- I have tested the desktop and mobile versions of the website with Chrome, Firefox, and Edge on a Windows Computer.
+- I have tested the mobile version with Chrome and Firefox on an android device.
+- I have tested the mobile version with Safari on an ios device.
+- I have shared the website with multiple users to confirm the website functionality on different devices and to get feedback on their experience.
+
 ## VALIDATOR TESTING ##
 
 #### HTML ####
@@ -90,22 +97,21 @@ The Rock, Paper, Scissors, Lizard, Spock game works on various devices and scree
 
 - 	Result:  https://validator.w3.org/nu/?doc=https%3A%2F%2Fagnieszkalukasiak.github.io%2FProject2%2F
 
+![alt=Spock_Game](assets/images/html_result.png)
+
 #### CSS ####
 
 - No errors were found when passing through the official (Jigsaw) validator .
 - Result : https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fagnieszkalukasiak.github.io%2FProject2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+![alt=Spock_Game](assets/images/css_result.png)
 
 #### JAVA SCRIPT ####
 
 - No errors were found when passing through the official ( Jshint).
 - Link  https://jshint.com/ 
 
-### Manual Testing ###
-
-- I have tested the desktop and mobile versions of the website with Chrome, Firefox, and Edge on a Windows Computer.
-- I have tested the mobile version with Chrome and Firefox on an android device.
-- I have tested the mobile version with Safari on an ios device.
-- I have shared the website with multiple users to confirm the website functionality on different devices and to get feedback on their experience.
+![alt=Spock_Game](assets/images/js_result.png)
 
 ### Unfixed Bugs ###
 
