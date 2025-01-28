@@ -4,6 +4,10 @@ Spoks Lizard, is an exciting and dynamic browser-based game where the user compe
 
 The user can test their skills, and ability to make quick decisions, aiming for the highest score. With engaging gameplay and simple controls, Spoks Lizard is perfect for both casual players and seasoned gamers, or just for a moment of entertainment, while sitting in a waiting room or standing in line...
 
+## LIVE LINK ##
+
+The live link can be found here : https://agnieszkalukasiak.github.io/Project2/
+
 ## GAME ##
 
 - Utilizing a clean and simple design, the game is easy to play and understand.
@@ -130,8 +134,6 @@ There are no unfixed bugs.
 -	In the GitHub repository, navigate to the Settings tab
 -	From the source section drop-down menu, select the Master Branch
 -	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
-The live link can be found here : https://agnieszkalukasiak.github.io/Project2/
 
 ### CREDITS ###
 
