@@ -19,11 +19,11 @@ The user can test their skills, and ability to make quick decisions, aiming for 
 
 - It gives the user a clear visual representation of their and the computer's choices.
 
-![alt=Spock_Game](assets/images/player_computer.png)
+![alt=Player](assets/images/player_computer.png)
 
 As the feature activates:
 
-![alt=Spock_Game](assets/images/computer_player_inaction.png)
+![alt=Computer](assets/images/computer_player_inaction.png)
 
 ### Result bar ###
 
@@ -31,25 +31,25 @@ As the feature activates:
 	
 -	The layout makes it easy for the user to see the outcome and understand when the game has concluded.
 
-![alt=Spock_Game](assets/images/result.png)
+![alt=result](assets/images/result.png)
 
 As the feature activates:
 
-![alt=Spock_Game](assets/images/result_inaction.png)
+![alt=result](assets/images/result_inaction.png)
 
 ### Score bar ###
 -	The game keeps track of the scores for both the player and the computer. 
 
 -	The two-color design and varied font sizes of the bar make it easy for the user to see their score at a glance.
 
-![alt=Spock_Game](assets/images/score.png)
+![alt=score](assets/images/score.png)
 
 ### Remaining Tries ###
 -	The game discreetly displays the remaining tries, ensuring the information is available without being intrusive. 
 
 -	This allows for a relaxing gaming experience.
 
-![alt=Spock_Game](assets/images/tries_remaining.png)
+![alt=tries_remaining](assets/images/tries_remaining.png)
 
 ### Icons ###
 -	The Rock, Paper, Scissors, Lizard, Spock icons not only visually represent the user's choices but are also labeled for new users to understand their selection. 
@@ -58,14 +58,14 @@ As the feature activates:
 
 -	This intuitive functionality and design evokes a sense of real-life interaction.
 
-![alt=Spock_Game](assets/images/game_icons.png)
+![alt=game_icons](assets/images/game_icons.png)
 
 ### Winner Bar ###
 -	This feature displays the winner of the game. 
 
 -	Hidden throughout the game, this bar appears at the end to summarize the game result, making it easy for the user to quickly see the outcome.
 
-![alt=Spock_Game](assets/images/winner.png)
+![alt=winner_button](assets/images/winner.png)
 
 
 ### Reset Button ###
@@ -73,7 +73,7 @@ As the feature activates:
 
 -	The button makes it easy for the user to restart the game without having to reload the window or click the back button.
 
-![alt=Spock_Game](assets/images/reset_button.png)
+![alt=reset_button](assets/images/reset_button.png)
 
 ## FEATURES LEFT TO IMPLEMENT
 
@@ -97,21 +97,28 @@ The Rock, Paper, Scissors, Lizard, Spock game works on various devices and scree
 
 - 	Result: https://validator.w3.org/nu/?doc=https%3A%2F%2Fagnieszkalukasiak.github.io%2FProject2%2F
 
-![alt=Spock_Game](assets/images/html_result.png)
+![alt=Shtml_result](assets/images/html_result.png)
 
 #### CSS ####
 
 - No errors were found when passing through the official (Jigsaw) validator .
 - Result : https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fagnieszkalukasiak.github.io%2FProject2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-![alt=Spock_Game](assets/images/css_result.png)
+![alt=css_result](assets/images/css_result.png)
 
 #### JAVA SCRIPT ####
 
 - No errors were found when passing through the official ( Jshint).
 - Link  https://jshint.com/ 
 
-![alt=Spock_Game](assets/images/js_result.png)
+![alt=JavaScript_result](assets/images/js_result.png)
+
+#### WAVE Web Accessibility Evaluation Tool ###
+
+![alt=wave_result](assets/images/wave_result.png)
+
+#### Lighthouse ###
+![alt=Lighthouse_result](assets/images/Lighthouse_result.png)
 
 ### Unfixed Bugs ###
 
