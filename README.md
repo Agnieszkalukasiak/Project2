@@ -95,7 +95,7 @@ The Rock, Paper, Scissors, Lizard, Spock game works on various devices and scree
 
 - 	No errors were returned when passing through the official W3C validator
 
-- 	Result:  https://validator.w3.org/nu/?doc=https%3A%2F%2Fagnieszkalukasiak.github.io%2FProject2%2F
+- 	Result: https://validator.w3.org/nu/?doc=https%3A%2F%2Fagnieszkalukasiak.github.io%2FProject2%2F
 
 ![alt=Spock_Game](assets/images/html_result.png)
 
