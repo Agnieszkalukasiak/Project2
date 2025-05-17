@@ -135,19 +135,6 @@ There are no unfixed bugs.
 -	From the source section drop-down menu, select the Master Branch
 -	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-### CREDITS ###
-
-From my mentor: Moritz Wach.
-
-The arrow function from : www.w3schools.com/js/js_arrow_function.asp
-
-The reload function: https://www.freecodecamp.org/news/javascript-refresh-page-how-to-reload-a-page-in-js/
-
-Switch function: https://support.microsoft.com/en-us/office/switch-function-47ab33c0-28ce-4530-8a45-d532ec4aa25e
-
-To better understand the underlying thinking : https://www.codespud.com/2022/rock-paper-scissors-lizard-spock/
-
-Asked ChatGPT for help with checking why some of the code wasn’t working.
 
 ### CONTENT ###
 
